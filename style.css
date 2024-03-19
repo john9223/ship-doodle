@@ -1,0 +1,53 @@
+body
+{
+background-image: url('bp.png');
+margin: 0px;
+}
+
+.player-info
+{
+    height: 8vh;
+}
+
+.player-info>p
+{
+    position: absolute;
+    color: rgb(205, 15, 15);
+    font-size:3.9vw;
+    margin: 0px;
+    top: -0.5%;
+    font-family: Fantasy;
+
+}
+
+.player-info>p>span
+{
+    color: rgb(117, 209, 117);
+}
+
+.game-window
+{
+    border: 11px Solid rgb(205, 15, 15);;
+    height: 90vh
+}
+
+#player
+{
+    position: absolute;
+    left: 49vw;
+    height: 38px;
+    top: 61vh;
+    width: 6vw;
+}
+
+.robo>div
+{
+    position: absolute;
+    background-color: rgb(225, 225, 36);
+    height: 38px;
+    width: 6vw;
+    top: 10vh;
+    border: 3px Solid  rgb(205, 15, 15);;
+    margin: 0px;
+    z-index: -1;
+}
